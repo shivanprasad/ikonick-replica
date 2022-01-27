@@ -1,0 +1,26 @@
+.nav{
+  font-size: 14px;
+  font-family: 'Lato';
+}
+
+.dropdown-menu li{
+  font-family:'Lato';
+  font-size:14px;
+  list-style:none;
+  margin: 5px;
+  width: 800px;
+  max-height: 854px;
+
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 7px !important;
+  padding-right: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+ .aligncenter {
+   text-align: center;
+ }
