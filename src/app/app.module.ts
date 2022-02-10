@@ -7,7 +7,7 @@ import {CustomerbarComponent} from "./navigation/header/customerbar.component";
 import {MainMenuComponent} from "./navigation/header/main-menu.component";
 import {VideoComponent} from "./pages/index/video.component";
 import {BottomNavBarComponent} from "./navigation/footer/bottomnavbar.component";
-import {Over1500caroselComponent} from "./pages/index/over1500carosel.component";
+import {CarouselComponent} from "./pages/index/carousel.component";
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import {Over1500caroselComponent} from "./pages/index/over1500carosel.component"
     CustomerbarComponent,
     MainMenuComponent,
     VideoComponent,
-    Over1500caroselComponent,
+    CarouselComponent,
     BottomNavBarComponent
   ],
   imports: [
