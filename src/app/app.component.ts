@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {CarouselItemsModel} from "./pages/index/carousel-items.model";
-import {mock_carousel_items_list} from "./pages/index/mock_carousel_items_list";
+import {CarouselItemsModel} from "./pages/carousel-items.model";
+import {mock_carousel_items_list} from "./pages/mock_carousel_items_list";
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,5 @@ import {mock_carousel_items_list} from "./pages/index/mock_carousel_items_list";
 })
 export class AppComponent {
   title = 'ikonick';
-  carousels: CarouselItemsModel [] = [];
 
-  constructor(){
-    for(var carousel of mock_carousel_items_list){
-      this.carousels.push(carousel);
-    }
-  }
 }
