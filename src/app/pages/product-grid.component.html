@@ -1,0 +1,11 @@
+<div class="row row-cols-6 justify-content-evenly">
+  <div *ngFor="let card of cards">
+    <ikonick-product-card
+      img={{card.img}}
+      title={{card.title}}
+      description={{card.description}}
+      price=${{card.price}}
+    >Loading...</ikonick-product-card>
+  </div>
+</div>
+

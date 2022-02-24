@@ -23,33 +23,40 @@ import {PopeyeLayoutComponent} from "./pages/popeye-layout.component";
 import {ScrabbleLayoutComponent} from "./pages/scrabble-layout.component";
 import {BestSellersLayoutComponent} from "./pages/best-sellers-layout.component";
 import {PeanutsLayoutComponent} from "./pages/peanuts-layout.component";
+import {ProductCardComponent} from "./pages/product-card.component";
+import {BundlesLayoutComponent} from "./pages/bundles-layout.component";
+import {ProductGridComponent, ProductGridComponentBundles} from "./pages/product-grid.component";
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CustomerbarComponent,
-    MainMenuComponent,
-    VideoComponent,
-    CarouselComponent,
-    BottomNavBarComponent,
-    MotivationalLayoutComponent,
-    HomeLayoutComponent,
-    ArtistsLayoutComponent,
-    KidsLayoutComponent,
-    WomenArtistsLayoutComponent,
-    MonopolyLayoutComponent,
-    NBALegendsLayoutComponent,
-    AllCollectionsLayoutComponent,
-    ExploreLayoutComponent,
-    MuhammadAliLayoutComponent,
-    SmileyLayoutComponent,
-    PopeyeLayoutComponent,
-    ExploreLayoutComponent,
-    ScrabbleLayoutComponent,
-    PeanutsLayoutComponent,
-    BestSellersLayoutComponent
-  ],
+    declarations: [
+        AppComponent,
+        CustomerbarComponent,
+        MainMenuComponent,
+        VideoComponent,
+        CarouselComponent,
+        BottomNavBarComponent,
+        MotivationalLayoutComponent,
+        HomeLayoutComponent,
+        ArtistsLayoutComponent,
+        KidsLayoutComponent,
+        WomenArtistsLayoutComponent,
+        MonopolyLayoutComponent,
+        NBALegendsLayoutComponent,
+        AllCollectionsLayoutComponent,
+        ExploreLayoutComponent,
+        MuhammadAliLayoutComponent,
+        SmileyLayoutComponent,
+        PopeyeLayoutComponent,
+        ExploreLayoutComponent,
+        ScrabbleLayoutComponent,
+        PeanutsLayoutComponent,
+        BestSellersLayoutComponent,
+        BundlesLayoutComponent,
+        ProductCardComponent,
+        ProductGridComponent,
+        ProductGridComponentBundles
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
