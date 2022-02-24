@@ -1,0 +1,11 @@
+24 February 2022
+
+Main Features:
+  - Added product pages to Best Sellers and Bundles
+    - Product pages consist of a grid component made to dynamically add cards that dynamically
+      update with content from a mock list
+      - Mock list exports multiple product lists, so the grid layout has multiple components with different
+        selectors so when a page uses a grid, it specifies it by the selector made for said page so
+        it pulls the appropriate content from the mock list
+    - Product page is split into six columns that are evenly spaced which populate using an ngFor loop which wraps
+      every six product cards per row
