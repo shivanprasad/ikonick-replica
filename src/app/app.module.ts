@@ -26,6 +26,8 @@ import {PeanutsLayoutComponent} from "./pages/peanuts-layout.component";
 import {ProductCardComponent} from "./pages/product-card.component";
 import {BundlesLayoutComponent} from "./pages/bundles-layout.component";
 import {ProductGridComponent, ProductGridComponentBundles} from "./pages/product-grid.component";
+import {HttpClientModule} from "@angular/common/http";
+import { UserInfoComponent } from './user-info/user-info.component';
 
 
 @NgModule({
@@ -55,11 +57,13 @@ import {ProductGridComponent, ProductGridComponentBundles} from "./pages/product
         BundlesLayoutComponent,
         ProductCardComponent,
         ProductGridComponent,
-        ProductGridComponentBundles
+        ProductGridComponentBundles,
+        UserInfoComponent,
     ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
