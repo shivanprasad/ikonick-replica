@@ -1,6 +1,6 @@
-#2 March 2022
-###Lab 6
-##Main Features:
+# 2 March 2022
+### Lab 6
+## Main Features:
 - Created realtime Firebase backend database
   - Populated with basic info
     - FirstName
@@ -10,14 +10,14 @@
 - Used Angular's HTTP client to get data from backend database
 - Created a new user-info component to display the obtained data
 
-#Bonus
+# Bonus
 - Enhanced CHANGELOG.md readability by using ***Markdown***
 
 ----------------------------------------
-#24 February 2022
-###Lab 5
+# 24 February 2022
+### Lab 5
 
-##Main Features:
+## Main Features:
 - Added product pages to Best Sellers and Bundles
   - Product pages consist of a grid component made to dynamically add cards that dynamically
     update with content from a mock list
