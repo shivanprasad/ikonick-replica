@@ -1,3 +1,16 @@
+#CHANGELOG
+
+#9 March 2022
+###Lab 7
+##Main Features:
+- Migrated locally stored mock data to Firebase database
+- Created service component to communicate with backend for front page carousels 
+- Used carousel service component to display carousels in ngFor loop on home page
+
+#Bonus
+- Added additional data to Firebase database for implementation
+----------------------------------------
+
 #2 March 2022
 ###Lab 6
 ##Main Features:
