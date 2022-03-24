@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {CarouselItemsModel} from "./pages/carousel-items.model";
-import {mock_carousel_items_list} from "./pages/mock_carousel_items_list";
+import {CarouselItemsModel} from "./store/carousel-items.model";
+import {mock_carousel_items_list} from "./store/mock_carousel_items_list";
 
 @Component({
   selector: 'app-root',

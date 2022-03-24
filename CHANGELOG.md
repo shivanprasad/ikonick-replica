@@ -1,5 +1,11 @@
 #CHANGELOG
 
+#24 March 2022
+###Lab 8
+##Main Features:
+- Deployed web application using Firebase Hosting
+----------------------------------------
+
 #9 March 2022
 ###Lab 7
 ##Main Features:

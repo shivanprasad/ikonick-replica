@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import {MotivationalLayoutComponent} from "./pages/motivational-layout.component";
-import {HomeLayoutComponent} from "./pages/home-layout.component";
-import {KidsLayoutComponent} from "./pages/kids-layout.component";
-import {ArtistsLayoutComponent} from "./pages/artists-layout.component";
-import {WomenArtistsLayoutComponent} from "./pages/women-artists-layout.component";
-import {MonopolyLayoutComponent} from "./pages/monopoly-layout.component";
-import {NBALegendsLayoutComponent} from "./pages/nba-legends-layout.component";
-import {AllCollectionsLayoutComponent} from "./pages/all-collections-layout.component";
-import {ExploreLayoutComponent} from "./pages/explore-layout.component";
-import {MuhammadAliLayoutComponent} from "./pages/muhammad-ali-layout.component";
-import {SmileyLayoutComponent} from "./pages/smiley-layout.component";
-import {PopeyeLayoutComponent} from "./pages/popeye-layout.component";
-import {ScrabbleLayoutComponent} from "./pages/scrabble-layout.component";
-import {BestSellersLayoutComponent} from "./pages/best-sellers-layout.component";
-import {BundlesLayoutComponent} from "./pages/bundles-layout.component";
-import {PeanutsLayoutComponent} from "./pages/peanuts-layout.component";
+import {MotivationalLayoutComponent} from "./store/motivational-layout.component";
+import {HomeLayoutComponent} from "./store/home-layout.component";
+import {KidsLayoutComponent} from "./store/kids-layout.component";
+import {ArtistsLayoutComponent} from "./store/artists-layout.component";
+import {WomenArtistsLayoutComponent} from "./store/women-artists-layout.component";
+import {MonopolyLayoutComponent} from "./store/monopoly-layout.component";
+import {NBALegendsLayoutComponent} from "./store/nba-legends-layout.component";
+import {AllCollectionsLayoutComponent} from "./store/all-collections-layout.component";
+import {ExploreLayoutComponent} from "./store/explore-layout.component";
+import {MuhammadAliLayoutComponent} from "./store/muhammad-ali-layout.component";
+import {SmileyLayoutComponent} from "./store/smiley-layout.component";
+import {PopeyeLayoutComponent} from "./store/popeye-layout.component";
+import {ScrabbleLayoutComponent} from "./store/scrabble-layout.component";
+import {BestSellersLayoutComponent} from "./store/best-sellers-layout.component";
+import {BundlesLayoutComponent} from "./store/bundles-layout.component";
+import {PeanutsLayoutComponent} from "./store/peanuts-layout.component";
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
