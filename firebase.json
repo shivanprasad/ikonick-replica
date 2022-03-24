@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/ikonick-replica",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
