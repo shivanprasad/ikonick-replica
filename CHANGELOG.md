@@ -1,5 +1,11 @@
 #CHANGELOG
 
+#14 April 2022
+###Lab 10
+##Main Features:
+- Added authentication functionality
+----------------------------------------
+
 #24 March 2022
 ###Lab 8
 ##Main Features:
