@@ -29,6 +29,8 @@ import {ProductGridComponent, ProductGridComponentBundles} from "./store/product
 import {HttpClientModule} from "@angular/common/http";
 import { UserInfoComponent } from './user-info/user-info.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -61,11 +63,13 @@ import { AddProductComponent } from './add-product/add-product.component';
         ProductGridComponentBundles,
         UserInfoComponent,
         AddProductComponent,
+        AuthenticationComponent,
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

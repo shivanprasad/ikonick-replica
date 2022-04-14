@@ -1,5 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
 };
 
 // Import the functions you need from the SDKs you need

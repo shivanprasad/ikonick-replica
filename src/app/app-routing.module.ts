@@ -17,6 +17,8 @@ import {ScrabbleLayoutComponent} from "./store/scrabble-layout.component";
 import {BestSellersLayoutComponent} from "./store/best-sellers-layout.component";
 import {BundlesLayoutComponent} from "./store/bundles-layout.component";
 import {PeanutsLayoutComponent} from "./store/peanuts-layout.component";
+import {AuthenticationComponent} from "./auth/authentication/authentication.component";
+import {AddProductComponent} from "./add-product/add-product.component";
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -35,7 +37,16 @@ const routes: Routes = [
   {path: 'Scrabble', component: ScrabbleLayoutComponent},
   {path: 'Best-Sellers', component: BestSellersLayoutComponent},
   {path: 'Bundles', component: BundlesLayoutComponent},
-  {path: 'Peanuts', component: PeanutsLayoutComponent}
+  {path: 'Peanuts', component: PeanutsLayoutComponent},
+  {
+    path: '', component: HomeLayoutComponent
+  },
+  {
+    path: 'admin', component: AddProductComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
+  },
 ];
 
 @NgModule({
